@@ -35,7 +35,7 @@ The easiest way to get started is to use the processed data provided
 here.
 
 The data can be downloaded from Box
-<https://mskcc.box.com/s/wn5uvwxu2xm4hw219mo0id3r9nkyyprx>
+<>
 
 ### Software Packages
 
