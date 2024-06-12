@@ -2,17 +2,17 @@
 
 ### Description
 
-*Comprehensive Collection for Proteomic Data Analysis: This repository houses a complete suite of scripts and code dedicated to analyzing proteomic data using advanced machine learning techniques.
+* Comprehensive Collection for Proteomic Data Analysis: This repository houses a complete suite of scripts and code dedicated to analyzing proteomic data using advanced machine learning techniques.
 
-*Three Distinct Machine Learning Models: The primary focus is on implementing three models: Support Vector Machine (SVM), Ridge Regression, and Neural Networks, each designed to handle the complexities of proteomic data.
+* Three Distinct Machine Learning Models: The primary focus is on implementing three models: Support Vector Machine (SVM), Ridge Regression, and Neural Networks, each designed to handle the complexities of proteomic data.
 
-*Support Vector Machine (SVM) Model: The SVM model leverages its ability to manage high-dimensional data and identify optimal hyperplanes for classification tasks, ensuring robust and accurate predictions.
+* Support Vector Machine (SVM) Model: The SVM model leverages its ability to manage high-dimensional data and identify optimal hyperplanes for classification tasks, ensuring robust and accurate predictions.
 
-*Ridge Regression Model: Ridge Regression is employed to address potential multicollinearity in the dataset, providing more reliable coefficient estimates for the proteomic data.
+* Ridge Regression Model: Ridge Regression is employed to address potential multicollinearity in the dataset, providing more reliable coefficient estimates for the proteomic data.
 
-*Neural Networks: Neural Networks, known for capturing non-linear relationships, are utilized to model complex patterns inherent in proteomic data, offering a comprehensive evaluation of different modeling techniques.
+* Neural Networks: Neural Networks, known for capturing non-linear relationships, are utilized to model complex patterns inherent in proteomic data, offering a comprehensive evaluation of different modeling techniques.
 
-*Detailed Preprocessing Scripts: The repository includes scripts for data cleaning tasks such as handling missing values and normalizing data distributions. These automated preprocessing steps ensure data quality and consistency, streamlining the workflow for researchers and facilitating model development and evaluation.
+* Detailed Preprocessing Scripts: The repository includes scripts for data cleaning tasks such as handling missing values and normalizing data distributions. These automated preprocessing steps ensure data quality and consistency, streamlining the workflow for researchers and facilitating model development and evaluation.
 
 * The codebase is designed to be modular and extensible, allowing for easy adaptation to new datasets or modifications to existing processing steps.
 
