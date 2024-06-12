@@ -1,14 +1,18 @@
-## Single-cell-RNA-seq-Processing
+## Variant plus Proteomic Models
 
 ### Description
 
-To define the transcriptional landscape of grafted dopamine neurons, we performed single cell mRNA sequencing from p53 wild-type (WT) and p53 knock-out (KO) grafted neurons, re-isolated from the mouse brain at 1 dpt. This is the processing pipeline to generate the figures used in the accompanying paper. For full transparency and reproducibility, we've provided the code implementation, including scripts, data, and dependencies.
+*Comprehensive Collection for Proteomic Data Analysis: This repository houses a complete suite of scripts and code dedicated to analyzing proteomic data using advanced machine learning techniques.
 
-* This repository includes a comprehensive breakdown of each step in the processing pipeline, from data preprocessing to figure generation. We've organized the code into logical modules to facilitate understanding and modification. Detailed comments and documentation are included to guide you through the implementation and parameter tuning process.
+*Three Distinct Machine Learning Models: The primary focus is on implementing three models: Support Vector Machine (SVM), Ridge Regression, and Neural Networks, each designed to handle the complexities of proteomic data.
 
-* To ensure that you can replicate our results precisely, we've also included the datasets used in our experiments. These datasets are properly formatted and annotated, making them ready for direct use with the provided scripts. The R data objects for this repository are available to download at our Box foler (https://mskcc.box.com/s/wn5uvwxu2xm4hw219mo0id3r9nkyyprx).
+*Support Vector Machine (SVM) Model: The SVM model leverages its ability to manage high-dimensional data and identify optimal hyperplanes for classification tasks, ensuring robust and accurate predictions.
 
-* If you would like to generate these `.rds` files independently we included the preprocessing steps applied to the raw data, enabling you to reproduce our preprocessing pipeline if needed.
+*Ridge Regression Model: Ridge Regression is employed to address potential multicollinearity in the dataset, providing more reliable coefficient estimates for the proteomic data.
+
+*Neural Networks: Neural Networks, known for capturing non-linear relationships, are utilized to model complex patterns inherent in proteomic data, offering a comprehensive evaluation of different modeling techniques.
+
+*Detailed Preprocessing Scripts: The repository includes scripts for data cleaning tasks such as handling missing values and normalizing data distributions. These automated preprocessing steps ensure data quality and consistency, streamlining the workflow for researchers and facilitating model development and evaluation.
 
 * The codebase is designed to be modular and extensible, allowing for easy adaptation to new datasets or modifications to existing processing steps.
 
@@ -17,15 +21,8 @@ To define the transcriptional landscape of grafted dopamine neurons, we performe
 * Please [email](ffc4001@med.cornell.edu) us for bug reports or with suggestion for optimization. Feel free to open an issue or submit a pull request on GitHub.
 
 ### Executing program
-* Pre-processed single cell data objects can be downloaded from [this Box folder](https://mskcc.box.com/s/wn5uvwxu2xm4hw219mo0id3r9nkyyprx), or they can be generated using the scripts provided here. If you choose to use the downloaded objects you may need to modify the code where these files are loaded (i.e. `readRDS` calls) to match your own working directory. For example, in `Figure1.spin.Rmd` the files are assumed to be in `./TNF-NFKB-2024/` relative to the current working directory. 
 
-* To obtain the processed single-cell experiment from the combined day 1 replicates, execute the `combinedday1replicates.Rmd` R markdown. Subsequently, apply additional processing steps by running `processing.R` that generates the `FinalObj.rds` file. 
-
-* For day 25 in-vitro cell line dataset, run the `cell_line_d25.Rmd` script to generate the processed single-cell experiment (`cellline_clean.rds`) file.
-
-* After obtaining the necessary objects, run the `Figures1.spin.Rmd` script to convert them into a `Seurat` objects and generate the figures for Figure 5 and Supplement Figure 5. The required objects for this step are the `cellline_clean.rds` and `FinalObj.RDS`.
-
-* For Monocle trajectory analysis, execute the `Monocle.R` script and the `Jupyter` Python notebook for survival analysis that generates the Monocle results for the supplement.
+To get started, run the raw proteomic data through the provided preprocessing scripts. These scripts are designed to handle tasks such as missing values and normalizing data distributions, ensuring the data is clean and consistent. Once the preprocessing is complete, the scripts will generate the necessary training, test, and validation files for each of the three models: Support Vector Machine (SVM), Ridge Regression, and Neural Networks. These preprocessed files are essential for the subsequent steps of model training and evaluation, allowing for a streamlined and efficient workflow.
 
 ### Authors
 Fayzan Chaudhry ffc4001@med.cornell.edu
