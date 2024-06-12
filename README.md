@@ -31,11 +31,7 @@ This repository provides a comprehensive set of scripts and code for analyzing S
 
 ## Data Access
 
-The easiest way to get started is to use the processed data provided
-here.
-
-The data can be downloaded from Box
-<>
+The easiest way to get started is to apply for UK Biobank and PPMI Data. Unfortunetly, we are not allowed to share data. 
 
 ### Software Packages
 
