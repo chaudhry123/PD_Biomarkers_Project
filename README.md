@@ -9,7 +9,7 @@ Introduction: Parkinson’s disease (PD) is a prevalent neurodegenerative diseas
 
 -   [Variant plus Proteomic Models](#Variant-plus-Proteomic-Processing)
 -   [Variant Only Models](#Variant-Only-Processing)
--   [Data for download](#data-for-download)
+-   [Data Access](#data-access)
 
 Scripts were written by Fayzan Chaudhry.
 
